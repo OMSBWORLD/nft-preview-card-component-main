@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.Big-body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:   hsl(217, 54%, 11%);
+}
+.body{
+    width: 25%;
+    min-height: 80vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img img{
+   border-radius: 10px;
+}
+.eq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.eq h2{
+    color:  hsl(0, 0%, 100%);
+    padding-left: 40px;
+    margin-top: 20px;
+}
+.eq h2:hover{
+    color:hsl(178, 100%, 50%) ;
+}
+.eq h4{
+    padding-left: 40px;
+    color:  hsl(215, 51%, 70%);
+    margin-top: 20px;
+}
+.both{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.eth{
+    display: flex;
+    margin-left: 40px;
+    width: 90px;
+    justify-content: space-between;
+    align-items: center;
+}
+.eth p{
+    color:  hsl(178, 100%, 50%)
+}
+.days{
+    display: flex;
+    margin-right: 40px;
+    width: 90px;
+    justify-content: space-between;
+    align-items: center;
+    color:  hsl(215, 51%, 70%);;
+}
+.avatar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 70px;
+    position: relative;
+}
+.avatar img{
+    background-color: white;
+    border-radius: 100px;
+    padding: 1px;
+}
+.avatar span{
+    color: hsl(215, 51%, 70%);
+    position: absolute;
+    top: 15px;
+    left: 100px;
+}
+.avatar p{
+    color: grey;
+    position: absolute;
+    top: 15px;
+    left:180px;
+}
+.avatar p:hover{
+    color: hsl(178, 100%, 50%);
+}
+@media screen and (max-width: 500px) {
+    .body{
+        width: 70%;
+        min-height: 65vh;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: hsl(216, 50%, 16%);
+        border-radius: 20px;
+       
+    }
+    .img img{
+        border-radius: 10px;
+        width: 80%;
+     }
+}
